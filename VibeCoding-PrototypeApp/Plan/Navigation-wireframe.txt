@@ -1,0 +1,34 @@
+FRUIT SHOP - LEFT NAVIGATION
+
+Expanded menu (viewport 300 CSS pixels and wider):
+
++---------------------+
+| FRUIT SHOP          |
+|                     |
+| > Products          |  Current page indicator
+|   ProductDetails    |
+|   ShoppingCart (3)  |  Cart count
+|   Checkout          |
++---------------------+
+
+Collapsed menu (viewport below 300 CSS pixels):
+
++------+
+|  FS  |
+|      |
+| > P  |  Products
+|   PD |  ProductDetails
+|   SC3|  ShoppingCart (cart count)
+|   C  |  Checkout
++------+
+
+Navigation behavior and accessibility:
+- Links navigate to Products, ProductDetails, ShoppingCart, and Checkout.
+- Clearly indicate the current page.
+- Cart contents remain available while navigating within the app.
+- Below 300 CSS pixels, abbreviate links so they remain distinguishable:
+  P = Products, PD = ProductDetails, SC = ShoppingCart, C = Checkout.
+- Give each abbreviated link its full accessible name.
+- Keep links usable by keyboard and show visible keyboard focus.
+- Keep the menu at the left on wider screens; prevent horizontal overflow
+  on narrow screens.

@@ -1,0 +1,34 @@
+FRUIT SHOP - SHOPPING CART
+
+Cart with items:
+
++-------------------+------------------------------------------------+
+| LEFT NAVIGATION   | Shopping cart                                  |
+|                   |                                                |
+|   Products        | Product       Qty   Unit price   Line total   |
+|   ProductDetails  | Apples        [2]   $1.99 / lb       $3.98   |
+|   ShoppingCart(3) |               [Remove]                         |
+|   Checkout        | Bananas       [1]   $1.49 / bunch    $1.49   |
+|                   |               [Remove]                         |
+|                   |                                                |
+|                   | Subtotal:                           $5.47     |
+|                   |                                                |
+|                   | [Continue shopping] [Go to checkout]          |
++-------------------+------------------------------------------------+
+
+Empty cart:
+
++-------------------+----------------------------------------------+
+| LEFT NAVIGATION   | Shopping cart                                |
+|                   |                                              |
+|   Products        | Your cart is empty.                         |
+|   ProductDetails  | [Browse products]                           |
+|   ShoppingCart(0) |                                              |
+|   Checkout        |                                              |
++-------------------+----------------------------------------------+
+
+Behavior notes:
+- Changing quantity or removing an item updates line totals, subtotal,
+  and cart count.
+- Quantities are positive whole numbers.
+- On narrow screens, let item details wrap without horizontal overflow.

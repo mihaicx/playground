@@ -1,0 +1,28 @@
+FRUIT SHOP - PRODUCT DETAILS
+
++-------------------+----------------------------------------------+
+| LEFT NAVIGATION   | Product details                              |
+|                   |                                              |
+|   Products        |                 [emoji]                     |
+|   ProductDetails  |                 Apples                      |
+|   ShoppingCart(3) |                 $1.99 / lb                  |
+|   Checkout        |                                              |
+|                   | Crisp, sweet apples for snacking or baking. |
+|                   |                                              |
+|                   | [< Back to Products]                        |
++-------------------+----------------------------------------------+
+
+No product selected:
+
++-------------------+----------------------------------------------+
+| LEFT NAVIGATION   | Product details                              |
+|                   |                                              |
+|   Products        | Select a product to see its details.        |
+|   ProductDetails  | [Go to Products]                             |
+|   ShoppingCart(3) |                                              |
+|   Checkout        |                                              |
++-------------------+----------------------------------------------+
+
+Behavior notes:
+- Show the selected product's name, description, emoji, and USD unit price.
+- Back to Products returns to the product listing.

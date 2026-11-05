@@ -1,0 +1,49 @@
+FRUIT SHOP - PRODUCTS
+
++-------------------+----------------------------------------------+
+| LEFT NAVIGATION   | Products                                     |
+|                   | Browse fresh fruit                           |
+|   Products        |                                              |
+|   ProductDetails  | +--------------------+ +--------------------+ |
+|   ShoppingCart(3) | | [emoji] Apples    | | [emoji] Bananas   | |
+|   Checkout        | | $1.99 / lb         | | $1.49 / bunch     | |
+|                   | | Qty [1]            | | Qty [1]            | |
+|                   | | [Add] [View]       | | [Add] [View]       | |
+|                   | +--------------------+ +--------------------+ |
+|                   |                                              |
+|                   | +--------------------+ +--------------------+ |
+|                   | | [emoji] Oranges   | | [emoji] Strawberries|
+|                   | | $2.49 / lb         | | $3.99 / 1 lb box   | |
+|                   | | Qty [1]            | | Qty [1]            | |
+|                   | | [Add] [View]       | | [Add] [View]       | |
+|                   | +--------------------+ +--------------------+ |
+|                   |                                              |
+|                   | +--------------------+ +--------------------+ |
+|                   | | [emoji] Grapes     | | [emoji] Watermelon |
+|                   | | $2.99 / lb         | | $5.99 / each       | |
+|                   | | Qty [1]            | | Qty [1]            | |
+|                   | | [Add] [View]       | | [Add] [View]       | |
+|                   | +--------------------+ +--------------------+ |
+|                   |                                              |
+|                   | +--------------------+ +--------------------+ |
+|                   | | [emoji] Pineapple  | | [emoji] Mangoes    | |
+|                   | | $3.49 / each       | | $1.79 / each       | |
+|                   | | Qty [1]            | | Qty [1]            | |
+|                   | | [Add] [View]       | | [Add] [View]       | |
+|                   | +--------------------+ +--------------------+ |
+|                   |                                              |
+|                   | +--------------------+ +--------------------+ |
+|                   | | [emoji] Lemons     | | [emoji] Peaches    | |
+|                   | | $0.79 / each       | | $2.99 / lb         | |
+|                   | | Qty [1]            | | Qty [1]            | |
+|                   | | [Add] [View]       | | [Add] [View]       | |
+|                   | +--------------------+ +--------------------+ |
+|                   |                                              |
+|                   | Status: "Apples added to your cart."         |
++-------------------+----------------------------------------------+
+
+Behavior notes:
+- Selecting a product name or View opens its ProductDetails page.
+- Each quantity control accepts positive whole numbers.
+- Adding a product already in the cart increases its existing quantity.
+- On narrow screens, stack product cards in one column.

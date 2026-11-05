@@ -1,0 +1,35 @@
+FRUIT SHOP - CHECKOUT
+
+Checkout with items:
+
++-------------------+----------------------------------------------+
+| LEFT NAVIGATION   | Checkout                                     |
+|                   |                                              |
+|   Products        | Order summary                                |
+|   ProductDetails  | Apples       x 2                 $3.98      |
+|   ShoppingCart(3) | Bananas      x 1                 $1.49      |
+|   Checkout        |                                              |
+|                   | Total                             $5.47      |
+|                   | No tax or shipping added.                    |
+|                   |                                              |
+|                   | [Process Order]                             |
+|                   |                                              |
+|                   | After processing:                            |
+|                   | "Mock order complete. No real order was      |
+|                   |  submitted and no payment was made."         |
++-------------------+----------------------------------------------+
+
+Empty cart:
+
++-------------------+----------------------------------------------+
+| LEFT NAVIGATION   | Checkout                                     |
+|                   |                                              |
+|   Products        | Your cart is empty.                         |
+|   ProductDetails  | [Browse products]                           |
+|   ShoppingCart(0) |                                              |
+|   Checkout        | No order-processing control is shown.       |
++-------------------+----------------------------------------------+
+
+Behavior notes:
+- The total is the sum of line totals; no tax, shipping, or fees.
+- Processing is a local prototype confirmation only, not a real order.
